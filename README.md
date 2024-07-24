@@ -1,4 +1,4 @@
-Phonebook Management System
+# Phonebook Management System
 
 To run the program, you need to open a terminal and navigate to the project folder using the cd command. Then, if the executable files TCPClient and TCPServer are not present in the folder, you can create them using the make command. This way, you can run the client-server program using the IP address '127.0.0.1' (the loopback address), creating communication between client and server on the same machine.
 
