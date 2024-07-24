@@ -8,8 +8,6 @@ void sendMessage(int clientFd, const char *message) {
 
 void receiveMessage(int clientFd, char *buffer, size_t sizeBuffer){
     char tempBuffer[BUFFER_SIZE];
-    //memset(tempBuffer, 0, BUFFER_SIZE);
-    //memset(buffer, 0, sizeBuffer);
 
     ssize_t valread = read(clientFd, tempBuffer, BUFFER_SIZE - 1);
 
